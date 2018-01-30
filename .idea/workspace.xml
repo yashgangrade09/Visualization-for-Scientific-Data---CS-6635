@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="789e8bdd-b16a-4085-8e03-94edc029cb1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Part2Q3.py" afterPath="$PROJECT_DIR$/Part2Q3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Part2Q2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Part2Q4.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Part2Q3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Part2Q3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part2Q3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
@@ -51,17 +50,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="US_births_2000-2014_SSA.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dataset/US_births_2000-2014_SSA.csv">
+      <file leaf-file-name="Part2Q4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part2Q4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93143">
-              <caret line="5479" column="18" lean-forward="false" selection-start-line="5479" selection-start-column="13" selection-end-line="5479" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="congress-terms.csv" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Part2Q2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Part2Q2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="congress-terms.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dataset/congress-terms.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -90,6 +99,8 @@
         <option value="$PROJECT_DIR$/Part2.py" />
         <option value="$PROJECT_DIR$/Part2Q1.py" />
         <option value="$PROJECT_DIR$/Part2Q3.py" />
+        <option value="$PROJECT_DIR$/Part2Q4.py" />
+        <option value="$PROJECT_DIR$/Part2Q2.py" />
       </list>
     </option>
   </component>
@@ -99,7 +110,9 @@
     <option name="width" value="1510" />
     <option name="height" value="998" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -408,14 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dataset/congress-terms.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -451,6 +456,30 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2Q4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part2Q2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dataset/congress-terms.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
