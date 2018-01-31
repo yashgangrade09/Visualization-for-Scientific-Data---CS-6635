@@ -136,11 +136,46 @@ def barplot_d2():
     plt.xticks(range(len(recallclass)), list(recallclass.keys()))
     plt.show()
 
+def pieplot_d2():
+    f = open("Dataset/FSIS-Recall-Summary-2014.csv")
+    csvreader = csv.reader(f)
+
+    for i in range(8):
+        next(csvreader)
+    data = []
+    for row in csvreader:
+        data.append(row)
+    # print(data)
+
+    pounds = []
+    recallclass = {'0': 0, '1': 0, '2': 0}
+    c1 = 0
+    c2 = 0
+    c3 = 0
+    for row in data:
+        # print(row[5].replace(",",""))
+        if row[2] == 'I':
+            c1 += int(row[5].replace(",", ""))
+            recallclass['0'] = c1
+        if row[2] == "II":
+            c2 += int(row[5].replace(",", ""))
+            recallclass['1'] = c2
+        else:
+            c3 += int(row[5].replace(",", ""))
+            recallclass['2'] = c3
+        counter = True
+        if counter == True:
+            plt.pie([float(v) for v in recallclass.values()], labels = [k for k in recallclass.keys()], autopct='%1.1f%%',startangle=90 )
+            plt.axis('equal')
+            counter = False
+        plt.show()
+
 # Run for Dataset 1
 # lineplot_d1()
 # piechart_d1()
 # barplot_d1()
 
 # Run for Dataset 2
-barplot_d2()
+# barplot_d2()
+pieplot_d2()
 
