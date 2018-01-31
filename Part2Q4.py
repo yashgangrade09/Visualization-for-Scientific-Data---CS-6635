@@ -121,7 +121,7 @@ def barplot_d2():
     c2 = 0
     c3 = 0
     for row in data:
-        print(row[5].replace(",",""))
+       #print(row[5].replace(",",""))
         if row[2] == 'I':
             c1 += int(row[5].replace(",",""))
             recallclass['0'] = c1
@@ -131,9 +131,10 @@ def barplot_d2():
         else:
             c3 += int(row[5].replace(",",""))
             recallclass['2'] = c3
-
-    plt.pie
     print(recallclass)
+    plt.bar(range(len(recallclass)), list(recallclass.values()), align='center')
+    plt.xticks(range(len(recallclass)), list(recallclass.keys()))
+    plt.show()
 
 # Run for Dataset 1
 # lineplot_d1()
