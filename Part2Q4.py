@@ -3,18 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import us
 
-'''
-f = open("Dataset/p2q4d1.csv")
-csvreader = csv.reader(f)
-
-#skip the first header information line
-next(csvreader)
-data = []
-state = []
-for row in csvreader:
-    state.append(row[5])
-'''
-
 ###### Dataset 1 - Total Waterborne Commerce ######
 
 ##### Plot type - Bar Plot ######
@@ -53,6 +41,7 @@ def barplot_d1():
     plt.ylabel("Total Commerce ( x 10^9")
     plt.show()
 
+##### Plot type - Line Plot ######
 def lineplot_d1():
     f = open("Dataset/total_waterborne_commerce.csv")
     csvreader = csv.reader(f)
@@ -85,7 +74,8 @@ def lineplot_d1():
     plt.grid()
     plt.show()
 
-def histogram_d1():
+##### Plot type - Pie Graph ######
+def piechart_d1():
     f = open("Dataset/total_waterborne_commerce.csv")
     csvreader = csv.reader(f)
     csvreader = csv.reader(f)
@@ -107,5 +97,23 @@ def histogram_d1():
     dom = dom.astype(int)
     foreign = foreign.astype(int)
 
-    plt.hist(tot, bins=)
+    # plt.hist(tot)
+    # fig1, ax1 = plt.subplots()
+    plt.pie(tot, labels=year, autopct='%1.1f%%',startangle=90)
+    plt.axis('equal')
+    plt.title("Pie Chart depicting total sales every year from 1974 - 2013")
+    plt.show()
+
+###### Dataset 2 - Total Waterborne Commerce ######
+
+
+
+
+# Run for Dataset 1
 lineplot_d1()
+piechart_d1()
+barplot_d1()
+
+# Run for Dataset 2
+
+
