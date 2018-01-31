@@ -78,7 +78,6 @@ def lineplot_d1():
 def piechart_d1():
     f = open("Dataset/total_waterborne_commerce.csv")
     csvreader = csv.reader(f)
-    csvreader = csv.reader(f)
     # skip the first header information line
     next(csvreader)
     data = []
@@ -105,15 +104,42 @@ def piechart_d1():
     plt.show()
 
 ###### Dataset 2 - Total Waterborne Commerce ######
+def barplot_d2():
+    f = open("Dataset/FSIS-Recall-Summary-2014.csv")
+    csvreader = csv.reader(f)
 
+    for i in range(8):
+        next(csvreader)
+    data = []
+    for row in csvreader:
+        data.append(row)
+    # print(data)
 
+    pounds = []
+    recallclass = {'0': 0, '1': 0, '2': 0}
+    c1 = 0
+    c2 = 0
+    c3 = 0
+    for row in data:
+        print(row[5].replace(",",""))
+        if row[2] == 'I':
+            c1 += int(row[5].replace(",",""))
+            recallclass['0'] = c1
+        if row[2] == "II":
+            c2 += int(row[5].replace(",",""))
+            recallclass['1'] = c2
+        else:
+            c3 += int(row[5].replace(",",""))
+            recallclass['2'] = c3
 
+    plt.pie
+    print(recallclass)
 
 # Run for Dataset 1
-lineplot_d1()
-piechart_d1()
-barplot_d1()
+# lineplot_d1()
+# piechart_d1()
+# barplot_d1()
 
 # Run for Dataset 2
-
+barplot_d2()
 
