@@ -1,0 +1,31 @@
+Table with row headers in column B and NAICS codes in column A with column headers in row 4,,,,,,,,,,,,,,,,,
+Estimated U.S. Per Capita Retail Sales by Selected Kind of Business: 2000 Through 2015,,,,,,,,,,,,,,,,,
+[Estimates are shown in dollars and are based on data from the Annual Retail Trade Survey and the Census Bureau's Population Program1. Estimates have been adjusted using final results of the 2012 Economic Census.],,,,,,,,,,,,,,,,,
+NAICS Code,Kind of business,2015,2014r,2013r,2012r,2011r,2010r,2009r,2008r,2007,2006,2005,2004,2003,2002,2001,2000
+,"Per capita spending, total² ………………………………………...…………………………………………………………………………………………………","14,728","14,564","14,103","13,701","13,165","12,342","11,776","12,941","13,263","12,975","12,484","11,861","11,247","10,877","10,746","10,573"
+,Total (excl. motor vehicle and parts dealers) ………………………………………...…………………………………………………………………………………………………,"11,316","11,360","11,069","10,878","10,556","9,941","9,586","10,357","10,241","9,959","9,478","8,902","8,346","8,030","7,884","7,751"
+441,Motor vehicle and parts dealers ………………………………………...…………………………………………………………………………………………………,"3,412","3,204","3,034","2,823","2,608","2,402","2,190","2,584","3,021","3,016","3,006","2,959","2,901","2,847","2,862","2,822"
+442,Furniture and home furnishings stores ………………………………………...…………………………………………………………………………………………………,333,313,302,292,281,275,276,325,369,378,369,354,333,328,321,323
+443,Electronics and appliance stores ………………………………………...…………………………………………………………………………………………………,318,325,326,325,321,315,311,346,354,353,340,321,298,291,282,291
+444,Building mat. and garden equip. and supplies dealers ………………………………………...…………………………………………………………………………………………………,"1,034",999,954,897,865,842,853,993,"1,065","1,120","1,086","1,008",908,864,840,812
+445,Food and beverage stores ………………………………………...…………………………………………………………………………………………………,"2,135","2,101","2,027","2,001","1,954","1,877","1,853","1,872","1,819","1,760","1,721","1,675","1,635","1,616","1,623","1,576"
+446,Health and personal care stores ………………………………………...…………………………………………………………………………………………………,982,939,891,873,871,842,824,811,787,748,711,681,663,626,584,550
+447,Gasoline stations ………………………………………...…………………………………………………………………………………………………,"1,383","1,692","1,738","1,769","1,712","1,449","1,275","1,656","1,500","1,414","1,282","1,107",949,871,882,885
+448,Clothing and clothing access. stores ………………………………………...…………………………………………………………………………………………………,797,786,777,763,733,689,666,709,734,714,680,650,616,599,587,594
+451,"Sporting goods, hobby, book, and music stores ………………………………………...…………………………………………………………………………………………………",272,268,267,264,259,260,261,275,281,279,274,271,265,267,270,269
+452,General merchandise stores ………………………………………...…………………………………………………………………………………………………,"2,103","2,094","2,062","2,046","2,005","1,952","1,920","1,957","1,921","1,858","1,788","1,699","1,616","1,552","1,500","1,433"
+453,Miscellaneous store retailers ………………………………………...…………………………………………………………………………………………………,372,364,356,350,348,337,332,364,386,381,363,356,351,357,362,378
+454,Nonstore retailers ………………………………………………………...………………………………………………………………………………………………,"1,586","1,478","1,370","1,300","1,208","1,102","1,014","1,050","1,025",953,865,782,711,658,634,640
+722,Food services and drinking places ………………………………………………………...…………………………………………………………………………………………………,"1,942","1,809","1,718","1,669","1,589","1,509","1,473","1,500","1,476","1,417","1,342","1,276","1,206","1,149","1,111","1,078"
+Footnotes:,,,,,,,,,,,,,,,,,
+"1Time Series of National Population Estimates, U.S. Census Bureau, Population estimates (in thousands) as of July 1 of:. ",,,,,,,,,,,,,,,,,
+"        2000:   282,162     2006:   298,380     2012:   313,998",,,,,,,,,,,,,,,,,
+"        2001:   284,969     2007:   301,231     2013:   316,205",,,,,,,,,,,,,,,,,
+"        2002:   287,625     2008:   304,094     2014:   318,563",,,,,,,,,,,,,,,,,
+"        2003:   290,108     2009:   306,772     2015:   320,897",,,,,,,,,,,,,,,,,
+"        2004:   292,805     2010:   309,348",,,,,,,,,,,,,,,,,
+"        2005:   295,517     2011:   311,663",,,,,,,,,,,,,,,,,
+"For additional information, see http://www.census.gov/data/tables/2016/demo/popest/nation-total.html.",,,,,,,,,,,,,,,,,
+2Estimates for food services and drinking places not included in total retail.,,,,,,,,,,,,,,,,,
+rRevised Data.,,,,,,,,,,,,,,,,,
+"Note: Estimates have not been adjusted for price changes. Measures of sampling variability for these estimates have not been computed. Additional information on confidentiality protection, sampling error, nonsampling error, sample design, and definitions can be found on the Internet at http://www.census.gov/retail/arts/how_surveys_are_collected.html. Per capita estimates prior to 2000 are not available because the population estimates used in the calculations were not available on a comparable basis. For additional information, see https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/intercensal/2000-2010-intercensal-estimates-methodology.pdf.",,,,,,,,,,,,,,,,,
