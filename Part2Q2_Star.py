@@ -5,8 +5,6 @@ from math import pi
 import us
 import pandas as pd
 
-
-
 def StarPlot_State_Age(avg_age, data):
     #### Work for Star Plot Starts ####
     N = len(data)
