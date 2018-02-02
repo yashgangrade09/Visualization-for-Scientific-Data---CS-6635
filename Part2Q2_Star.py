@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import pi
 import us
+import pandas as pd
 
 
 
@@ -75,7 +76,6 @@ def StarPlot_State_Age(avg_age, data):
     plt.title("Star plot depicting average age of politicians from each state")
     # Show polar plot
     plt.show()
-
 
 ### Main function starts
 f = open("Dataset/congress-terms.csv")

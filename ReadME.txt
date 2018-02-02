@@ -2,7 +2,8 @@ To run the python files:
 
 Part1.py - Contains all questions from the Part 1
 Part2Q1.py - Question 1 of Part 2
-Part2Q2.py - Question 2 of part 2
+Part2Q2_Star.py - Star Plot in Question 2 of part 2
+Part2Q2_Parallel.py - Parallel Coordinates in Question 2 of Part 2
 Part2Q3.py - Question 3 of part 2
 Part2Q4.py - Question 4 of part 2
 
