@@ -38,7 +38,8 @@ def barplot_d1():
     ax.autoscale(tight = True)
     ax.legend((r1, r2, r3), ('Foreign', 'Domestic', 'Total'), fontsize = 'large')
     plt.xlabel("Year")
-    plt.ylabel("Total Commerce ( x 10^9")
+    plt.ylabel("Total Commerce ( x 10^9) in $")
+    plt.title("Bar Plot depecting total waterborne commerce throughout the years")
     plt.show()
 
 ##### Plot type - Line Plot ######
@@ -64,14 +65,15 @@ def lineplot_d1():
     dom = dom.astype(int)
     foreign = foreign.astype(int)
 
-    r1 = plt.plot(year, foreign, 'b--')
-    r2 = plt.plot(year, dom, 'r*')
-    r3 = plt.plot(year, tot, 'y-')
+    r1, = plt.plot(year, foreign, 'b--')
+    r2, = plt.plot(year, dom, 'r*')
+    r3, = plt.plot(year, tot, 'y-')
     plt.autoscale(tight = True)
     plt.legend((r1, r2, r3), ('Foreign', 'Domestic', 'Total'), fontsize = 'large')
     plt.xlabel("Year")
-    plt.ylabel("Total Commerce ( x 10^9")
+    plt.ylabel("Total Commerce ( x 10^9) in $")
     plt.grid()
+    plt.title("Line Plot depecting total waterborne commerce throughout the years")
     plt.show()
 
 ##### Plot type - Pie Graph ######
@@ -98,10 +100,10 @@ def piechart_d1():
 
     plt.pie(tot, labels=year, autopct='%1.1f%%',startangle=90)
     plt.axis('equal')
-    plt.title("Pie Chart depicting total sales every year from 1974 - 2013")
+    plt.title("Pie Chart depicting total waterborne commerce throughout the years")
     plt.show()
 
-###### Dataset 2 - Total Waterborne Commerce ######
+###### Dataset 2 - FSIS Recall Summary ######
 def barplot_d2():
     f = open("Dataset/FSIS-Recall-Summary-2014.csv")
     csvreader = csv.reader(f)
@@ -130,6 +132,9 @@ def barplot_d2():
             c3 += int(row[5].replace(",",""))
             recallclass['2'] = c3
     print(recallclass)
+    plt.xlabel("Class of Product (I - '0', II - '1', III - '2')")
+    plt.ylabel("Pounds Recalled (x 10^7)")
+    plt.title("Bar Plot depicting the number of pounds recalled for each class of products in 2014")
     plt.bar(range(len(recallclass)), list(recallclass.values()), align='center')
     plt.xticks(range(len(recallclass)), list(recallclass.keys()))
     plt.show()
@@ -162,6 +167,7 @@ def pieplot_d2():
             c3 += int(row[5].replace(",", ""))
             recallclass['2'] = c3
     plt.pie([float(v) for v in recallclass.values()], labels = [k for k in recallclass.keys()], autopct='%1.1f%%',startangle=90 )
+    plt.title("Bar Plot depicting the number of pounds recalled for each class of products in 2014")
     plt.axis('equal')
     plt.show()
 
@@ -197,6 +203,9 @@ def scatterplot_d2():
     y = [k for k in recallclass.values()]
     colors = list("rgbcmyk")
     plt.scatter(x,y)
+    plt.xlabel("Class of Product (I - '0', II - '1', III - '2')")
+    plt.ylabel("Pounds Recalled (x 10^7)")
+    plt.title("Bar Plot depicting the number of pounds recalled for each class of products in 2014")
     plt.show()
 
 
@@ -273,9 +282,9 @@ def piechart_d3():
     plt.show()
 
 # Run for Dataset 1
+# barplot_d1()
 # lineplot_d1()
 # piechart_d1()
-# barplot_d1()
 
 # Run for Dataset 2
 # barplot_d2()
