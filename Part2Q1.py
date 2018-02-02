@@ -26,8 +26,10 @@ for i in range(0, len(value)):
 
 ##Draw histogram using Fahrenheit (Uncomment)
 plt.bar(year, valueF, align='center', width=0.8)
+plt.ylim((31,34))
 plt.xlabel("Year")
 plt.ylabel("F +/- from the average")
+plt.title("Bar plot depicting Temperature Changes through years 1880-2017")
 
 ##Draw histogram using Celsius (Uncomment)
 # plt.bar(year, value, align='center', width=0.8)
